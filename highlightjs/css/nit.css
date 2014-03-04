@@ -1,0 +1,49 @@
+/* Copyright 2014 Alexandre Terrasa <alexandre@moz-code.org>.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License. 
+*/
+
+/* Nit syntax for highlight js */
+
+.nit .hljs-comment, .hljs-comment-block {
+	color: #777;
+}
+
+.nit .hljs-keyword {
+	color: #2F82C2;
+	font-weight: bold;
+}
+
+.nit .hljs-title {
+	font-weight: bold;
+}
+
+.nit .hljs-type {
+	color: #E96710;
+}
+
+.nit .hljs-string {
+	color: #AFAFAF;
+}
+
+.nit .hljs-subst {
+	color: #9E6BEB;
+}
+
+.nit .hljs-fun .hljs-title, .hljs-class .hljs-title, .hljs-module {
+	color: #D8B70E;
+}
+
+.nit .hljs-char, .hljs-number {
+	color: #00FFFF;
+}
